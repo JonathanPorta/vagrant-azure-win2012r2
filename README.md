@@ -23,3 +23,6 @@ AZURE_ZONE = "West US"
 AZURE_BOX_PEM = /path/to/boxes/pm
 AZURE_SERVICE_NAME = "service-name"
 AZURE_DEPLOYMENT_NAME = "deployment-name"
+
+### Dependencies
+- vagrant-azure plugin

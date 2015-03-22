@@ -1,7 +1,7 @@
 $tempDir = 'C:\tmp'
 
 $gitUrl = 'https://github.com/JonathanPorta/rust-server-cookbook.git'
-$repoPath = 'C:\rust-server-cookbook'
+$repoPath = 'C:\cookbooks\rust'
 $repoRef = 'master'
 
 # Clone the repository

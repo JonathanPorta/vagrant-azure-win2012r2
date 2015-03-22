@@ -39,6 +39,5 @@ Vagrant.configure('2') do |config|
     config.vm.provision 'shell', inline: 'cinst -y git.install'
     config.vm.provision 'shell', inline: 'echo "Launching chef repo powershell script..." ; iex C:\vagrant\powershell\chef-repo.ps1'
     # TODO: Figure out how in the hell these dependencies get on the production server, because I am pretty sure this is not the right way...
-    config.vm.provision 'shell', inline: 'echo "Installing cookbook dependencies..." ; cd C:\cookbooks\endpoint ; berks install'
     config.vm.provision 'shell', inline: 'echo "Launching chef-solo powershell script..." ; iex C:\vagrant\powershell\chef-solo.ps1'
 end

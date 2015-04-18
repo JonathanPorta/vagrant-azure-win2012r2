@@ -1,4 +1,4 @@
-cookbook_path ['/cookbooks/', '/Users/portaj/.berkshelf/cookbooks/']
+cookbook_path ['/cookbooks/', '/Users/ogs/.berkshelf/cookbooks/']
 
 file_cache_path '/var/chef/cache'
 file_backup_path '/var/chef/backup'
